@@ -1,11 +1,11 @@
 require_relative "mrblib/version"
 
-MRuby::Gem::Specification.new('mruby-esp32-dino-core') do |spec|
+MRuby::Gem::Specification.new('mruby-dino-led') do |spec|
   spec.license = 'MIT'
   spec.authors = 'vickash'
   spec.version = Dino::Led::VERSION
   
-  spec.add_dependency('mruby-dino-core-esp32', github: 'dino-rb/mruby-dino-core-esp32')
+  # spec.add_dependency('mruby-dino-core-esp32', github: 'dino-rb/mruby-dino-core-esp32')
 
   # Include files in the right order.
   spec.rbfiles = [
